@@ -1,0 +1,1 @@
+<view bindtap="countClickMine">我是Mine页面, 你点击了{{countMine}}次</view>

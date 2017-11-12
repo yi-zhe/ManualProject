@@ -1,0 +1,1 @@
+<view bindtap="countClick">我是index页面, 你点击了{{count}}次</view>
