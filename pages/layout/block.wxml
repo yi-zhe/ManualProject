@@ -1,0 +1,18 @@
+<view bindtap="countClick">我是index页面, 你点击了{{count}}次</view>
+
+<!-- 每个块级元素占一行 -->
+<view style='border:solid 1px;'>第一个块级元素</view>
+
+<!-- 默认情况下块级元素与父控件的width一样 -->
+<view style='border:solid 10px; margin:10px; padding:10px'>第二个块级元素</view>
+
+<!-- 即使宽度不足以填满父控件, 也会占据一行 -->
+<view style='border:solid 10px; width:200px;'>第三个块级元素</view>
+
+<!-- 父元素的高度由块级元素的内容决定 -->
+<view style='border:solid 1px; margin-top:10px;'>
+    <view style="height:100px;">块级元素</view>
+</view>
+
+<view style='border:solid 1px; margin-top:10px'>文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流文本流</view>
+

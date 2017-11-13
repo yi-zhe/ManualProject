@@ -1,11 +1,12 @@
 Page({
-	data : {
-		count : 0
-	},
-	countClick : function() {
-		this.setData({
-			count : this.data.count + 1
-		});
-	}
-}
-);
+  blockClick: function () {
+    wx.navigateTo({
+      url: "../layout/block",
+    });
+  },
+  lineClick: function () {
+    wx.navigateTo({
+      url: '../layout/line',
+    })
+  }
+});
