@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/mine/mine",
-    "pages/layout/block"
+    "pages/layout/block",
+    "pages/layout/line",
+    "pages/layout/line-block"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",

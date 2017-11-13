@@ -1,0 +1,3 @@
+前面的文字<view style='border:solid 1px;margin 10px;padding:10px;display:inline-block;'>我是行内块元素我是行内块元素我是行内</view>后面的文字
+
+前面的文字<view style='border:solid 1px;margin 10px;padding:10px;display:inline-block;'>我是行内块元素</view>后面的文字后面的文字后面的文字

@@ -1,3 +1,5 @@
 <view bindtap="blockClick" style="padding:5px">1. 跳转到块级元素页</view>
 
 <view bindtap="lineClick" style="padding:5px">2. 跳转到行内元素页</view>
+
+<view bindtap="lineBlockClick" style="padding:5px">3. 跳转到行内块元素页</view>

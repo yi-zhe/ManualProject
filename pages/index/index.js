@@ -8,5 +8,10 @@ Page({
     wx.navigateTo({
       url: '../layout/line',
     })
+  },
+  lineBlockClick: function () {
+    wx.navigateTo({
+      url: '../layout/line-block',
+    })
   }
 });

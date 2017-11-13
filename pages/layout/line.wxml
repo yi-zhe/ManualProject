@@ -1,0 +1,6 @@
+
+<view style='border:solid 1px #999; color:#999'>我是块级元素</view>
+
+<!-- 通过设置display属性的行内元素 注意行内元素不会强制占满一行 -->
+前面的文字<view style='border:solid 1px; margin:10px;padding:0 10px;display:inline;'>
+    我是块级元素</view>后面的文字
