@@ -4,7 +4,8 @@
     "pages/mine/mine",
     "pages/layout/block",
     "pages/layout/line",
-    "pages/layout/line-block"
+    "pages/layout/line-block",
+    "pages/layout/floating"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",

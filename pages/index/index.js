@@ -13,5 +13,10 @@ Page({
     wx.navigateTo({
       url: '../layout/line-block',
     })
+  },
+  floatingClick: function () {
+    wx.navigateTo({
+      url: '../layout/floating',
+    })
   }
 });

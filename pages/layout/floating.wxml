@@ -1,0 +1,23 @@
+<!--  -->
+<view>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本
+  <view style='display:block;float:left;border:solid 1px;margin:20px;'>浮动框</view>文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本
+</view>
+
+<!-- 父元素高度只会包含第一个元素 忽略浮动元素 
+     父元素的边框并不包裹浮动框 -->
+<view style='border:solid 2px;margin-top:30px;'>
+  <view>其他元素</view>
+  <view style='float:left;'>浮动框</view>
+</view>
+
+<!-- 父元素会包含清除的浮动元素 -->
+<view style='border:solid 1px;margin-top:30px'>
+  <view>其他元素</view>
+  <view style='float:left'>浮动框</view>
+  <view style='clear:left'>清除浮动元素</view>
+</view>
+<view style='border:solid 1px;margin-top:10px'>
+  <view>其他元素</view>
+  <view style='float:left'>浮动框</view>
+  <view>不清除浮动</view>
+</view>
