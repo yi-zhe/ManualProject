@@ -1,0 +1,19 @@
+<!-- relative相对之前的位置进行移动, 原占有空间不会被关闭 -->
+<view style='border:solid 1px;'>
+    文案文案<text style='position:relative; top : 10px; left:10px;'>relative</text>文案文案文案文案文案文案
+</view>
+
+<!-- absolute依赖于包含块, 原占有空间会被关闭 -->
+<view style='border:solid 1px; position:relative; height:80px;margin-top:30px'>
+    文案文案<text style='position:absolute; bottom:10px; left:10px;'>absolute</text>文案文案文案文案文案文案
+</view>
+
+<!-- 没有找到最近的absolute或relative元素, 会直接认为根元素是包含块, 原占有空间关闭 -->
+<view style='border:solid 1px; margin-top:30px'>
+    文案文案<text style='position:absolute; bottom:10px; left:10px;'>absolute不设置包含块</text>文案文案文案文案文案文案
+</view>
+
+<!-- fixed直接认为视窗本身为包含块, 原占有空间关闭 -->
+<view style='border:solid 1px;'>
+    文案文案<text style='border:solid 1px;position:fixed; bottom:30px; right:10px;'>fixed</text>文案文案文案文案文案文案
+</view>

@@ -18,5 +18,10 @@ Page({
     wx.navigateTo({
       url: '../layout/floating',
     })
+  },
+  positionClick: function () {
+    wx.navigateTo({
+      url: '../layout/position',
+    })
   }
 });

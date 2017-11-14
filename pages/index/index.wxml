@@ -5,3 +5,5 @@
 <view bindtap="lineBlockClick" style="padding:5px">3. 跳转到行内块元素页</view>
 
 <view bindtap="floatingClick" style="padding:5px">4. 浮动处理</view>
+
+<view bindtap="positionClick" style="padding:5px">5. 定位处理</view>
