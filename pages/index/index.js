@@ -19,9 +19,9 @@ Page({
       url: '../layout/floating',
     })
   },
-  positionClick: function () {
+  flexClick: function () {
     wx.navigateTo({
-      url: '../layout/position',
+      url: '../layout/flex',
     })
   }
 });

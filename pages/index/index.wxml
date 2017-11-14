@@ -7,3 +7,5 @@
 <view bindtap="floatingClick" style="padding:5px">4. 浮动处理</view>
 
 <view bindtap="positionClick" style="padding:5px">5. 定位处理</view>
+
+<view bindtap="flexClick" style="padding:5px">6. flex</view>
