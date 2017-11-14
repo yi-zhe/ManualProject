@@ -9,3 +9,5 @@
 <view bindtap="positionClick" style="padding:5px">5. 定位处理</view>
 
 <view bindtap="flexClick" style="padding:5px">6. flex</view>
+
+<view bindtap="componentsClick" style="padding:5px">7. components</view>

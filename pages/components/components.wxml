@@ -1,0 +1,3 @@
+<view class="container">
+    <view class="flex-item bc_green" hover="true" hover-class="green_hover">1</view>
+</view>

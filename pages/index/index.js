@@ -23,5 +23,10 @@ Page({
     wx.navigateTo({
       url: '../layout/flex',
     })
+  },
+  componentsClick: function () {
+    wx.navigateTo({
+      url: '../components/components',
+    })
   }
 });
