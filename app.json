@@ -7,7 +7,8 @@
     "pages/layout/line-block",
     "pages/layout/floating",
     "pages/layout/position",
-    "pages/layout/flex"
+    "pages/layout/flex",
+    "pages/components/components"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",
