@@ -1,1 +1,1 @@
-/* pages/layout/floating.wxss */
+.clearfix:after {display: block; height:0; clear:both;content: ''}
