@@ -13,7 +13,10 @@ Page({
     selectedIndex: 0,
     startTime: '00:00',
     endTime: '24:00',
-    selectTime: '11:30'
+    selectTime: '11:30',
+    startDate: '2016-02-01',
+    endDate: '2016-12-30',
+    selectDate: '2016-10-10'
   },
 
   change1: function (e) {
@@ -25,6 +28,11 @@ Page({
   timechange: function (e) {
     this.setData({
       selectTime: e.detail.value
+    });
+  },
+  datechange: function (e) {
+    this.setData({
+      selectDate: e.detail.value
     });
   },
   /**

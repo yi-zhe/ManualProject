@@ -9,3 +9,9 @@
     当前选中:{{selectTime}}
   </view>
 </picker>
+
+<picker value='{{selectDate}}' mode='date' start='{{startDate}}' end='{{endDate}}' bindchange='datechange'>
+  <view class='picker'>
+    当前选中:{{selectDate}}
+  </view>
+</picker>
