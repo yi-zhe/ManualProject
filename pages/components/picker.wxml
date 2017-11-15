@@ -1,0 +1,5 @@
+<picker value="{{selectedIndex}}" range="{{list}}" bindchange="change1">
+  <view class="picker1">
+    当前选中:{{list[selectedIndex]}}
+  </view>
+</picker>

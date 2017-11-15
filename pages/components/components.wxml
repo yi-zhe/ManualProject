@@ -20,3 +20,5 @@
 <view bindtap="labelClick" style="padding:5px">10. Label</view>
 
 <view bindtap="sliderClick" style="padding:5px">11. Slider</view>
+
+<view bindtap="pickerClick" style="padding:5px">12. Picker</view>

@@ -1,0 +1,5 @@
+.picker1 {
+  border: solid 1px #ddd;
+  background-color: #fafafa;
+  padding: 10px;
+}
