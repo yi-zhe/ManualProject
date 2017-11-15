@@ -12,3 +12,5 @@
 <view bindtap="progressClick" style="padding:5px">6. Progress</view>
 
 <view bindtap="radioClick" style="padding:5px">7. Radio</view>
+
+<view bindtap="checkBoxClick" style="padding:5px">8. CheckBox</view>

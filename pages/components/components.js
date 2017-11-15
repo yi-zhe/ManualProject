@@ -39,6 +39,11 @@ Page({
       url: '../components/radio',
     })
   },
+  checkBoxClick: function () {
+    wx.navigateTo({
+      url: '../components/checkbox',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

@@ -1,0 +1,5 @@
+<checkbox-group bindchange='checkboxChange'>
+  <view wx:for="{{countries}}">
+    <checkbox value='{{item.value}}' checked='{{item.checked}}' disabled='{{item.disabled}}'>{{item.name}}</checkbox>
+  </view>
+</checkbox-group>
