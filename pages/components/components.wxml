@@ -14,3 +14,5 @@
 <view bindtap="radioClick" style="padding:5px">7. Radio</view>
 
 <view bindtap="checkBoxClick" style="padding:5px">8. CheckBox</view>
+
+<view bindtap="switchClick" style="padding:5px">9. Switch</view>

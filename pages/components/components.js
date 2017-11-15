@@ -44,6 +44,11 @@ Page({
       url: '../components/checkbox',
     })
   },
+  switchClick: function () {
+    wx.navigateTo({
+      url: '../components/switch',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载
