@@ -23,3 +23,18 @@
 .red_hover {
   border: 5px solid black;
 }
+
+.scroll-container {
+  border: solid 1px;
+  height: 500rpx;
+}
+
+.scroll-container .scroll-item {
+  height: 200rpx;
+  width: 120%
+}
+
+.bg-blue { background-color: #87CEFA}
+
+.bg-red { background-color: #FF6374}
+

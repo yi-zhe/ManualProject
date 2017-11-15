@@ -5,9 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    toView : 'item-3'
   },
 
+  scrollToUpper : function() {
+    console.log('触发滚动顶部事件');
+  },
+
+  scrollToLower : function() {
+    console.log('触发滚动底部事件');
+  },
+
+  scroll: function () {
+    console.log('触发滚动事件');
+  },
+
+  scrollToTop: function () {
+    this.setData({
+      scrollTop : '0'
+    });
+  },
   /**
    * 生命周期函数--监听页面加载
    */
