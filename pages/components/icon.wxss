@@ -28,3 +28,27 @@
 .section .list .item icon {
   text-align: center;
 }
+
+.myicon {
+   background-size: 1100rpx 826rpx;width: 60rpx;height: 60rpx;
+}
+
+.myicon.arrow {
+  background-position: -90rpx -185rpx;
+}
+
+.myicon.home {
+  background-position: -520rpx -90rpx;
+}
+
+.myicon.sun {
+  background-position: -90rpx -575rpx;
+}
+
+.myicon.refresh {
+  background-position: -730rpx -476rpx;
+}
+
+.myicon {
+  margin-right: 20rpx;
+}

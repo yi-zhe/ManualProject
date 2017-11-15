@@ -3,7 +3,7 @@
   <view class='list'>
     <block wx:for="{{sizeList}}">
       <view class='item'>
-        <icon type='success_no_circle' size='{{item}}'/>
+        <icon type='success_no_circle' size='{{item}}' />
         <label>{{item}}px</label>
       </view>
     </block>
@@ -15,7 +15,7 @@
   <view class='list'>
     <block wx:for='{{typeList}}'>
       <view class='item'>
-        <icon type='{{item}}' size='30'/>
+        <icon type='{{item}}' size='30' />
         <label>{{item}}</label>
       </view>
     </block>
@@ -27,9 +27,15 @@
   <view class='list'>
     <block wx:for='{{colorList}}'>
       <view class='item'>
-        <icon type='info' color='{{item}}'/>
+        <icon type='info' color='{{item}}' />
         <label>color:{{item}}</label>
       </view>
     </block>
   </view>
 </view>
+
+
+<icon class='myicon home' />
+<icon class='myicon arrow' />
+<icon class='myicon sun' />
+<icon class='myicon refresh' />
