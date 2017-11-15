@@ -18,3 +18,5 @@
 <view bindtap="switchClick" style="padding:5px">9. Switch</view>
 
 <view bindtap="labelClick" style="padding:5px">10. Label</view>
+
+<view bindtap="sliderClick" style="padding:5px">11. Slider</view>

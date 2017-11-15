@@ -1,0 +1,8 @@
+.section {
+  padding: 10px;
+}
+
+.section.icon-wrapper {
+  height: 100px;
+  font-size: 12px;
+}
