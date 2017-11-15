@@ -1,0 +1,35 @@
+<view class='section size'>
+  <view class='title'>图标大小展示</view>
+  <view class='list'>
+    <block wx:for="{{sizeList}}">
+      <view class='item'>
+        <icon type='success_no_circle' size='{{item}}'/>
+        <label>{{item}}px</label>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class='section'>
+  <view class='title'>图标类型展示</view>
+  <view class='list'>
+    <block wx:for='{{typeList}}'>
+      <view class='item'>
+        <icon type='{{item}}' size='30'/>
+        <label>{{item}}</label>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class='section'>
+  <view class='title'>图标颜色展示</view>
+  <view class='list'>
+    <block wx:for='{{colorList}}'>
+      <view class='item'>
+        <icon type='info' color='{{item}}'/>
+        <label>color:{{item}}</label>
+      </view>
+    </block>
+  </view>
+</view>

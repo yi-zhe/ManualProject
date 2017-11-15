@@ -1,28 +1,14 @@
-// pages/components/components.js
+// pages/components/icon.js
 Page({
 
-  viewClick: function () {
-    wx.navigateTo({
-      url: '../components/view',
-    })
-  },
-
-  scrollViewClick: function () {
-    wx.navigateTo({
-      url: '../components/scroll-view',
-    })
-  },
-
-  swiperViewClick: function () {
-    wx.navigateTo({
-      url: '../components/swiper',
-    })
-  },
-
-  iconClick: function () {
-    wx.navigateTo({
-      url: '../components/icon',
-    })
+  /**
+   * 页面的初始数据
+   */
+  data: {
+    sizeList: [10, 20, 30, 40],
+    typeList: ['success', 'success_no_circle', 'safe_success', 'success_circle', 'info', 'info_circle',
+      'waiting', 'waiting_circle', 'warn', 'safe_warn', 'circle', 'download', 'cancel', 'search', 'clear'],
+    colorList: ['green', 'rgb(139,101,8)']
   },
 
   /**

@@ -1,0 +1,30 @@
+.section {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.section .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section .list .item {
+  width: 300rpx;
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.section.size .list .item {
+  width: 100rpx;
+  padding: 0;
+}
+
+.section .list .item label {
+  text-align: center;
+}
+
+.section .list .item icon {
+  text-align: center;
+}

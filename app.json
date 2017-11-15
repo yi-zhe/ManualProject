@@ -11,7 +11,8 @@
     "pages/components/components",
     "pages/components/view",
     "pages/components/scroll-view",
-    "pages/components/swiper"
+    "pages/components/swiper",
+    "pages/components/icon"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",
