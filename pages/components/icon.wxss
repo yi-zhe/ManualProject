@@ -30,7 +30,7 @@
 }
 
 .myicon {
-   background-size: 1100rpx 826rpx;width: 60rpx;height: 60rpx;
+  background: url(https://pic2.zhimg.com/ba332a401_l.jpg) no-repeat; background-size: 1100rpx 826rpx;width: 100rpx;height: 100rpx;
 }
 
 .myicon.arrow {
