@@ -6,3 +6,5 @@
 <view bindtap="swiperViewClick" style="padding:5px">3. Swiper</view>
 
 <view bindtap="iconClick" style="padding:5px">4. Icon</view>
+
+<view bindtap="textClick" style="padding:5px">5. Text</view>
