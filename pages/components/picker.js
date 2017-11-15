@@ -10,12 +10,21 @@ Page({
       '选项2',
       '选项3'
     ],
-    selectedIndex: 0
+    selectedIndex: 0,
+    startTime: '00:00',
+    endTime: '24:00',
+    selectTime: '11:30'
   },
 
-  change1 : function(e) {
+  change1: function (e) {
     this.setData({
-      selectedIndex : e.detail.value
+      selectedIndex: e.detail.value
+    });
+  },
+
+  timechange: function (e) {
+    this.setData({
+      selectTime: e.detail.value
     });
   },
   /**

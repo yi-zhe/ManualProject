@@ -3,3 +3,9 @@
     当前选中:{{list[selectedIndex]}}
   </view>
 </picker>
+
+<picker value='{{selectTime}}' mode='time' start='{{startTime}}' end='{{endTime}}' bindchange='timechange'>
+  <view class='picker'>
+    当前选中:{{selectTime}}
+  </view>
+</picker>
