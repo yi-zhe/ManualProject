@@ -15,3 +15,23 @@
     当前选中:{{selectDate}}
   </view>
 </picker>
+
+<view class='custom-picker'>
+  <view class='title'>自定义滑动选择器</view>
+  <!-- 设置内部选中选项高度 -->
+  <picker-view indicator-style='height:80px;' bindchange='changeTime'>
+    <picker-view-column>
+      <view class='cell' wx:for='{{list2}}' wx:key='index'>
+        {{item.date}}
+      </view>
+    </picker-view-column>
+
+    <picker-view-column>
+      <block wx:for='{{list2}}' wx:key='index' wx:if='{{item.selected}}'>
+        <view class='cell' wx:for='{{item.times}}' wx:for-index='subIndex' wx:for-item='subItem' wx:key='subIndex'>
+          {{subItem.time}}
+        </view>
+      </block>
+    </picker-view-column>
+  </picker-view>
+</view>

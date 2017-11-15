@@ -8,3 +8,35 @@
   border: solid 1px #ddd;
   padding: 10px;
 }
+
+.custom-picker {
+  top: 100px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200rpx;
+  border: solid 1px #ccc;
+}
+
+.custom-picker .title {
+  text-align: center;
+  color: #444;
+  padding: 20rpx;
+  font-size: 24rpx;
+  background-color: #eee;
+  border-bottom: solid 1px #ccc;
+}
+
+.custom-picker picker-view {
+  height: 200px;
+}
+
+.custom-picker picker-view .cell {
+  text-align: center;
+  line-height: 80px;
+}
+
+.custom-picker picker-view-column {
+  border-right: solid 1px #ccc;
+  position: relative;
+  left: 1px;
+}
