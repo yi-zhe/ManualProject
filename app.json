@@ -13,7 +13,8 @@
     "pages/components/scroll-view",
     "pages/components/swiper",
     "pages/components/icon",
-    "pages/components/text"
+    "pages/components/text",
+    "pages/components/progress"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",

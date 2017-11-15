@@ -1,0 +1,7 @@
+<progress percent='20'></progress>
+<progress percent='30' show-info='true' style='margin-top:10px'></progress>
+<progress percent='40' stroke-width='20' 
+style='margin-top:10px'></progress>
+<progress percent='50' color='#CD5555' 
+style='margin-top:10px'></progress>
+<progress percent='60' active style='margin-top:10px'></progress>

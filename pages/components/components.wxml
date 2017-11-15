@@ -8,3 +8,5 @@
 <view bindtap="iconClick" style="padding:5px">4. Icon</view>
 
 <view bindtap="textClick" style="padding:5px">5. Text</view>
+
+<view bindtap="progressClick" style="padding:5px">6. Progress</view>
