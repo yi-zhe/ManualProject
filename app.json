@@ -8,7 +8,9 @@
     "pages/layout/floating",
     "pages/layout/position",
     "pages/layout/flex",
-    "pages/components/components"
+    "pages/components/components",
+    "pages/components/view",
+    "pages/components/scroll-view"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",
