@@ -2,3 +2,5 @@
 <view bindtap="viewClick" style="padding:5px">1. View</view>
 
 <view bindtap="scrollViewClick" style="padding:5px">2. ScrollView</view>
+
+<view bindtap="swiperViewClick" style="padding:5px">3. Swiper</view>
