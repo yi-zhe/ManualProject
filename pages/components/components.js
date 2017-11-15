@@ -50,6 +50,12 @@ Page({
     })
   },
 
+  labelClick: function () {
+    wx.navigateTo({
+      url: '../components/label',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -17,7 +17,8 @@
     "pages/components/progress",
     "pages/components/radio",
     "pages/components/checkbox",
-    "pages/components/switch"
+    "pages/components/switch",
+    "pages/components/label"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",

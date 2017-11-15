@@ -1,0 +1,37 @@
+<view class="section">
+  <checkbox-group bindchange="checkboxchange">
+    <label>
+      <checkbox value='value-1'>点击文案也能选中</checkbox>
+    </label>
+  </checkbox-group>
+</view>
+
+<view class='section'>
+  <view class="title">选中元素内的第一个</view>
+  <checkbox-group>
+    <label>
+      <checkbox value='value-1'/>第一个
+      <checkbox value='value-2'/>第二个
+      <checkbox value='value-3'/>第三个
+      <checkbox value='value-4'/>第四个
+      <checkbox value='value-5'/>第五个
+    </label>
+  </checkbox-group>
+</view>
+
+<view class='section'>
+  <label>
+    <switch/>点击文案切换开关
+  </label>
+</view>
+
+<view class='section'>
+  <view class='title'>for属性优先级大于内部元素</view>
+  <checkbox-group>
+    <label for="mycheckbox">
+      <checkbox/>label内部元素
+      <checkbox/>label内部元素
+    </label>
+    <checkbox id='mycheckbox'/>label外部元素
+  </checkbox-group>
+</view>
