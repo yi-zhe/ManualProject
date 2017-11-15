@@ -10,3 +10,5 @@
 <view bindtap="textClick" style="padding:5px">5. Text</view>
 
 <view bindtap="progressClick" style="padding:5px">6. Progress</view>
+
+<view bindtap="radioClick" style="padding:5px">7. Radio</view>

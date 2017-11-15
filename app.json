@@ -14,7 +14,8 @@
     "pages/components/swiper",
     "pages/components/icon",
     "pages/components/text",
-    "pages/components/progress"
+    "pages/components/progress",
+    "pages/components/radio"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",

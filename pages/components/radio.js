@@ -1,45 +1,36 @@
-// pages/components/components.js
+// pages/components/radio.js
 Page({
 
-  viewClick: function () {
-    wx.navigateTo({
-      url: '../components/view',
-    })
+  /**
+   * 页面的初始数据
+   */
+  data: {
+    radios: [
+      {
+        value: '1',
+        checked: false,
+        text: '选项1'
+      },
+      {
+        value: '2',
+        checked: true,
+        text: '选项2'
+      },
+      {
+        value: '3',
+        checked: false,
+        text: '选项3'
+      }, {
+        value: '4',
+        checked: false,
+        text: '选项4'
+      }
+    ]
   },
 
-  scrollViewClick: function () {
-    wx.navigateTo({
-      url: '../components/scroll-view',
-    })
+  changeChoosed: function (event) {
+    console.log('你选中了' + event.detail.value);
   },
-
-  swiperViewClick: function () {
-    wx.navigateTo({
-      url: '../components/swiper',
-    })
-  },
-
-  iconClick: function () {
-    wx.navigateTo({
-      url: '../components/icon',
-    })
-  },
-  textClick: function () {
-    wx.navigateTo({
-      url: '../components/text',
-    })
-  }, 
-  progressClick: function () {
-    wx.navigateTo({
-      url: '../components/progress',
-    })
-  },
-  radioClick: function () {
-    wx.navigateTo({
-      url: '../components/radio',
-    })
-  },
-
   /**
    * 生命周期函数--监听页面加载
    */
