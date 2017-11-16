@@ -1,0 +1,10 @@
+<button>默认按钮样式</button>
+<button size='mini'>size:mini</button>
+<button type='warn'>type:warn</button>
+<button plain='true'>plain</button>
+<button disabled='true'>disabled</button>
+<button loading='true'>loading</button>
+<button hover-class='my-button-hover'>hover</button>
+<button>
+    <image src='http://img.zcool.cn/community/0196df5649343c6ac7251c9471d1e1.gif'/>
+</button>

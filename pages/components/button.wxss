@@ -1,0 +1,8 @@
+button {
+  margin: 5px 0;
+}
+
+.my-button-hover {
+  background-color: red;
+  color: #fff;
+}

@@ -26,3 +26,5 @@
 <view bindtap="inputClick" style="padding:5px">13. Input</view>
 
 <view bindtap="textareaClick" style="padding:5px">14. Textarea</view>
+
+<view bindtap="buttonClick" style="padding:5px">15. Button</view>

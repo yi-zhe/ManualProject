@@ -22,7 +22,8 @@
     "pages/components/slider",
     "pages/components/picker",
     "pages/components/input",
-    "pages/components/textarea"
+    "pages/components/textarea",
+    "pages/components/button"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",
