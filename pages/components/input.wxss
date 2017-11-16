@@ -1,0 +1,13 @@
+.section {
+  font-size: 12px;
+  padding: 10px 5px;
+  border-bottom: dashed 1px #cecece;
+}
+
+.section .input {
+  border: solid 1px #ccc;
+  padding: 0 5px;
+  background-color: #fff;
+  border-radius: 4px;
+  height: 30px;
+}

@@ -22,3 +22,5 @@
 <view bindtap="sliderClick" style="padding:5px">11. Slider</view>
 
 <view bindtap="pickerClick" style="padding:5px">12. Picker</view>
+
+<view bindtap="inputClick" style="padding:5px">13. Input</view>
