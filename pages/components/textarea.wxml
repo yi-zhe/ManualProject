@@ -1,0 +1,3 @@
+<view class='section'>
+  <textarea bindblur='getValue' placeholder='请输入文案' placeholder-class='textarea-holder'/>
+</view>

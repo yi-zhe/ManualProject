@@ -24,3 +24,5 @@
 <view bindtap="pickerClick" style="padding:5px">12. Picker</view>
 
 <view bindtap="inputClick" style="padding:5px">13. Input</view>
+
+<view bindtap="textareaClick" style="padding:5px">14. Textarea</view>

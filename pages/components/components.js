@@ -28,7 +28,7 @@ Page({
     wx.navigateTo({
       url: '../components/text',
     })
-  }, 
+  },
   progressClick: function () {
     wx.navigateTo({
       url: '../components/progress',
@@ -71,6 +71,12 @@ Page({
   inputClick: function () {
     wx.navigateTo({
       url: '../components/input',
+    })
+  },
+
+  textareaClick: function () {
+    wx.navigateTo({
+      url: '../components/textarea',
     })
   },
 
