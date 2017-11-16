@@ -1,0 +1,50 @@
+<form bindsubmit='submit' bindreset='reset'>
+  <view class='section'>
+    <view class='title'>switch</view>
+    <switch name='myswitch' />
+  </view>
+
+  <view class='section'>
+    <view class='title'>checkbox</view>
+    <checkbox-group name='mycheckbox'>
+      <label>
+        <checkbox value='1'>中国</checkbox>
+      </label>
+      <label>
+        <checkbox value='2'>美国</checkbox>
+      </label>
+      <label>
+        <checkbox value='3'>日本</checkbox>
+      </label>
+    </checkbox-group>
+  </view>
+
+  <view class='section'>
+    <view class='title'>slider</view>
+    <slider name='myslider' show-value='true' />
+  </view>
+
+  <view class='section'>
+    <view class='title'>radio</view>
+    <radio-group name='myradio'>
+      <label>
+        <radio value='0'>男</radio>
+      </label>
+      <label>
+        <radio value='1'>女</radio>
+      </label>
+    </radio-group>
+  </view>
+
+  <view class='section'>
+    <view class='title'>picker</view>
+    <picker name='picker' value='{{index}}' range='{{times}}' bindchange='changePicker'>
+      <view>时间:{{times[index]}}</view>
+    </picker>
+  </view>
+
+  <view class='section'>
+    <button type='primary' form-type='submit'>提交</button>
+    <button form-type='reset'>重置</button>
+  </view>
+</form>
