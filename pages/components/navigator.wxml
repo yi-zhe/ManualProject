@@ -1,0 +1,2 @@
+<navigator url='../../pages/components/button'>调到Button</navigator>
+<navigator url='../../pages/components/picker' redirect='true'>调到Picker redirect</navigator>
