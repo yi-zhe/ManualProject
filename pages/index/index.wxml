@@ -11,3 +11,5 @@
 <view bindtap="flexClick" style="padding:5px">6. flex</view>
 
 <view bindtap="componentsClick" style="padding:5px">7. components</view>
+
+<view bindtap='doubanClick'>8. Douban</view>

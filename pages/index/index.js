@@ -28,5 +28,10 @@ Page({
     wx.navigateTo({
       url: '../components/components',
     })
+  },
+  doubanClick : function () {
+      wx.navigateTo({
+          url: '../demo/douban/home',
+      })
   }
 });
