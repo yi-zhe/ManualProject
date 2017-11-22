@@ -4,8 +4,8 @@ var handle,
     _fn;
 
 URL = {
-    movieList : 'https://api.douban.com/movie/',
-    movieDetail : 'https://api.douban.com/subject/'
+    movieList : 'https://api.douban.com/v2/movie/',
+    movieDetail : 'https://api.douban.com/v2/movie/subject/'
 }
 
 LISTTYPE = {

@@ -26,7 +26,8 @@
     "pages/components/button",
     "pages/components/form",
     "pages/components/navigator",
-    "pages/demo/douban/home"
+    "pages/demo/douban/home",
+    "pages/demo/douban/detail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",

@@ -3,23 +3,16 @@ var service = require('../../../service/douban/douban.js');
 var utils = require('../../../utils/utils.js');
 var _fn;
 
-// pages/demo/douban/home.js
+
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        movies: {},
-        tabs: {
-            currentIndex: 0,
-            list: [{
-                text: '正在热映',
-                type: '1'
-            }, {
-                text: '即将上映',
-                type: '2'
-            }],
+        movie: {},
+        screen: {
+            minHeight: 'auto'
         }
     },
 
@@ -27,19 +20,29 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
+        var self = this;
+        utils.showLoading();
+        wx.getSystemInfo({
+            success: function(res) {
+                self.setData({
+                    'screen.minHeight' : res.windowHeight + 'px'
+                });
+            },
+        });
 
+        service.getMovieDetail(options.id, function(data) {
+            data = data || movieDetail;
+            console.log(data);
+            utils.hideLoading();
+            _fn.render.call(self, data);
+        });
     },
 
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
     onReady: function () {
-        _fn.selectTab.call(this, 0);
-    },
 
-    changeTab: function (e) {
-        var target = e.target;
-        _fn.selectTab.call(this, target.dataset.index);
     },
 
     /**
@@ -86,25 +89,11 @@ Page({
 })
 
 _fn = {
-    selectTab: function (index) {
-        var self = this;
-        var tabs = self.data.tabs;
-        self.setData({
-            'tabs.currentIndex': index
-        });
-
-        utils.showLoading();
-
-        service.getMovieList(tabs.list[index].type, function (data) {
-            utils.hideLoading();
-            _fn.renderList.call(self, data);
-        });
-    },
-
-    renderList : function(data) {
-        data = data || listData;
+    render : function(data) {
+        data.genresStr = data.genres.join('/');
+        data.staff = data.directors.concat(data.casts);
         this.setData({
-            movies : data
+            movie : data
         });
     }
 }
