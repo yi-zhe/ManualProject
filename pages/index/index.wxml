@@ -12,4 +12,6 @@
 
 <view bindtap="componentsClick" style="padding:5px">7. components</view>
 
-<view bindtap='doubanClick'>8. Douban</view>
+<view bindtap='doubanClick' style="padding:5px">8. Douban</view>
+
+<view bindtap='calendarClick' style="padding:5px">9. Calendar</view>

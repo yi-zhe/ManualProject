@@ -33,5 +33,10 @@ Page({
       wx.navigateTo({
           url: '../demo/douban/home',
       })
+  },
+  calendarClick: function () {
+    wx.navigateTo({
+      url: '../demo/calendar/index',
+    })
   }
 });

@@ -27,7 +27,10 @@
     "pages/components/form",
     "pages/components/navigator",
     "pages/demo/douban/home",
-    "pages/demo/douban/detail"
+    "pages/demo/douban/detail",
+    "pages/demo/calendar/create",
+    "pages/demo/calendar/daytask",
+    "pages/demo/calendar/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5645",
